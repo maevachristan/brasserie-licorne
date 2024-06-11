@@ -5,9 +5,12 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="l-header">
       <div class="container">
         <div class="row">
           <div class="col-2">
@@ -44,7 +47,7 @@
       </div>
     </header>
     <hr>
-    <main>
+    <main class="l-main">
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -146,7 +149,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="l-footer">
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -182,7 +185,14 @@
           </div>
         </div>
       </div>
-      <img src="../img/unicorn.png" alt="Licorne mascotte de la brasserie">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <p>© 2024 Licorne. Tous droits réservés.</p>
+          </div>
+        </div>
+      </div>
+      <img src="../img/unicorn.png" alt="Licorne mascotte de la brasserie" class="unicorn">
     </footer>
     <script src="js/main.js" type="module"></script>
   </body>
