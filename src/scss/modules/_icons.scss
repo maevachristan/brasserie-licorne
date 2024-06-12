@@ -1,0 +1,51 @@
+.icons {
+    align-items: center;
+    background-color: #c4a283;
+    display: flex;
+    justify-content: space-around;
+    padding: 125px 0;
+}
+
+.bio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bio img {
+    max-width: 178px;
+}
+
+.alcohol-free {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.alcohol-free img {
+    max-width: 148px;
+}
+
+.gluten-free {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.gluten-free img {
+    max-width: 148px;
+}
+
+.local-products {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.local-products img {
+    max-width: 148px;
+}

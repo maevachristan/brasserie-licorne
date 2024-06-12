@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="l-header">
       <div class="container">
         <div class="row">
           <div class="col-2">
@@ -56,56 +56,39 @@
             <img src="../img/bar_inside.png" alt="L'intérieur de la brasserie">
           </div>
           <div class="col-6">
-            <img src="../img/small_stars.svg" alt="Etoiles scintillantes">
-            <p><span>L</span>icorne est une brasserie au principe bio et sans
-              alcool créée par Sylvain, 35 ans, amateur du Canada. Basée à 
-              Estavayer-le-Lac dans une bâtisse médiévale, trois personnes y 
-              travaillent avec Sylvain. On y trouve une unité de production, des 
-              surfaces de stockage et une administration, ainsi qu’une salle de 
-              dégustation pour les curieux de passage. La brasserie Licorne 
-              s’engage à proposer des produits bio, réalisés avec des céréales 
-              de productions locales.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <img src="../img/bio_icon.svg" alt="Icône bio">
-            <h2>production bio</h2>
-          </div>
-          <div class="col-3">
-            <img src="../img/alcohol_free_icon.svg" alt="Icône sans alcool">
-            <h2>sans alcool</h2>
-          </div>
-          <div class="col-3">
-            <img src="../img/gluten_free_icon.svg" alt="Icône sans gluten">
-            <h2>sans gluten</h2>
-          </div>
-          <div class="col-3">
-            <img src="../img/local_production_icon.svg" alt="Icône de produits locaux">
-            <h2>produits locaux</h2>
+            <div class="description">
+              <img src="../img/small_stars.svg" alt="Etoiles scintillantes">
+              <p><span>L</span>icorne est une brasserie au principe bio et sans
+                alcool créée par Sylvain, 35 ans, amateur du Canada. Basée à 
+                Estavayer-le-Lac dans une bâtisse médiévale, trois personnes y 
+                travaillent avec Sylvain. On y trouve une unité de production, des 
+                surfaces de stockage et une administration, ainsi qu’une salle de 
+                dégustation pour les curieux de passage. La brasserie Licorne 
+                s’engage à proposer des produits bio, réalisés avec des céréales 
+                de productions locales.</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <img src="../img/stone.svg" alt="Pierre violette">
-            <div class="row">
-              <div class="col-6">
-                <img src="../img/beer_blond.png" alt="Bière blonde">
+            <div class="icons">
+              <div class="bio">
+                <img src="../img/bio_icon.svg" alt="Icône bio">
+                <h2>production bio</h2>
               </div>
-              <div class="col-6">
-                <p><strong>Ingrédients : </strong> Eau, malte d'orge, colorant<br>
-                E150c, arôme naturel, houblon<br>0,5% alcool<br><strong>Allergènes : </strong>
-                gluten<br>Bouteille ne verre de 33cl<br><strong>CHF 4.60</strong><br>
-                Pack de 4 CHF 16.-</p>
-                <div class="row">
-                  <div class="col-4 offset-4">
-                    <div class="buy-button">acheter</div>
-                  </div>
-                </div>
+              <div class="alcohol-free">
+                <img src="../img/alcohol_free_icon.svg" alt="Icône sans alcool">
+                <h2>sans alcool</h2>
+              </div>
+              <div class="gluten-free">
+                <img src="../img/gluten_free_icon.svg" alt="Icône sans gluten">
+                <h2>sans gluten</h2>
+              </div>
+              <div class="local-products">
+                <img src="../img/local_production_icon.svg" alt="Icône de produits locaux">
+                <h2>produits locaux</h2>
               </div>
             </div>
           </div>
@@ -114,22 +97,33 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <img src="../img/stone2.svg" alt="Pierre brune">
-            <div class="row">
-              <div class="col-6">
-                <p><strong>Ingrédients : </strong>Eau, malte torréfié d'orge,<br>
-                malte torréfié de blé, houblon<br>0,5% alcool<br><strong>Allergènes : </strong>
-                gluten<br>Bouteille en verre de 33cl<br><strong>CHF 4.60</strong><br>
-                Pack de 4 CHF 16.-</p>
-                <div class="row">
-                  <div class="col-4 offset-4">
-                    <div class="buy-button">acheter</div>
-                  </div>
-                </div>
+            <div class="blond-beer">
+              <img src="../img/stone.svg" alt="Pierre violette" class="purple-stone">
+              <img src="../img/beer_blond.png" alt="Bière blonde" class="blond">
+              <p><strong>Ingrédients : </strong> Eau, malte d'orge, colorant<br>
+              E150c, arôme naturel, houblon<br>0,5% alcool<br><strong>Allergènes : </strong>
+              gluten<br>Bouteille ne verre de 33cl<br><strong>CHF 4.60</strong><br>
+              Pack de 4 CHF 16.-</p>
+              <div class="buy-button">
+                <a href="">acheter</a>
               </div>
-              <div class="col-6">
-                <img src="../img/beer_dunkel.png" alt="Bière brune">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="dunkel-beer">
+              <img src="../img/stone2.svg" alt="Pierre brune" class="dunkel-stone">
+              <p><strong>Ingrédients : </strong>Eau, malte torréfié d'orge,<br>
+              malte torréfié de blé, houblon<br>0,5% alcool<br><strong>Allergènes : </strong>
+              gluten<br>Bouteille en verre de 33cl<br><strong>CHF 4.60</strong><br>
+              Pack de 4 CHF 16.-</p>
+              <div class="buy-button">
+                <a href="">acheter</a>
               </div>
+              <img src="../img/beer_dunkel.png" alt="Bière brune" class="dunkel">
             </div>
           </div>
         </div>
@@ -138,20 +132,12 @@
         <div class="row">
           <div class="col-12">
             <img src="../img/stone3.svg" alt="Pierre verte">
-            <div class="row">
-              <div class="col-6">
-                <img src="../img/beer_ipa.png" alt="Bière ipa sans gluten">
-              </div>
-              <div class="col-6">
-                <p><strong>Ingrédients : </strong>Houblon agrume,<br>eau, coriandre,
-                malte de seigle<br>0,5% alcool<br>Bouteille en verre de 33cl<br>
-                <strong>CHF 4.60</strong><br>Pack de 4 CHF 16.-</p>
-                <div class="row">
-                  <div class="col-4 offset-4">
-                    <div class="buy-button">acheter</div>
-                  </div>
-                </div>
-              </div>
+            <img src="../img/beer_ipa.png" alt="Bière ipa sans gluten">
+            <p><strong>Ingrédients : </strong>Houblon agrume,<br>eau, coriandre,
+            malte de seigle<br>0,5% alcool<br>Bouteille en verre de 33cl<br>
+            <strong>CHF 4.60</strong><br>Pack de 4 CHF 16.-</p>
+            <div class="buy-button">
+              <a href="">acheter</a>
             </div>
           </div>
         </div>

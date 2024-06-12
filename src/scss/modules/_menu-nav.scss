@@ -20,6 +20,10 @@
     text-decoration: none;
 }
 
+.sections a:hover {
+    color: #97921e;
+}
+
 .languages {
     display: flex;
     font-family: 'Katari';
@@ -33,3 +37,6 @@
     text-decoration: none;
 }
 
+.languages a:hover {
+    color: #97921e;
+}
