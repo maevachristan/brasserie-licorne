@@ -17,13 +17,16 @@
     text-decoration: none;
 }
 
-.blond-button {
-    bottom: 600px;
-    left: 971px;
-    position: relative;
+.blond-button:hover {
+    background-color: #9747ff;
+    color: #c4a283;
 }
 
-.blond-button:hover {
+.dunkel-button {
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.dunkel-button:hover {
     background-color: #5c2e12;
     color: #c4a283;
 }
