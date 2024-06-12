@@ -1,0 +1,35 @@
+.menu-nav {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.menu-nav img {
+    max-width: 34px;
+}
+
+.sections {
+    display: flex;
+    font-size: 16px;
+    gap: 30px;
+}
+
+.sections a {
+    text-decoration: none;
+}
+
+.languages {
+    display: flex;
+    font-family: 'Katari';
+    font-size: 16px;
+    font-weight: 700;
+    gap: 6px;
+    text-transform: uppercase;
+}
+
+.languages a {
+    text-decoration: none;
+}
+

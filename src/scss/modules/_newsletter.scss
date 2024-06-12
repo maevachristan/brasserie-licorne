@@ -1,0 +1,19 @@
+.newsletter p {
+    margin-bottom: 30px;
+}
+
+.newsletter input {
+    background-color: #c4a283;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.25) inset;
+    height: 47px;
+    padding-left: 12px;
+    width: 235px;
+}
+
+.newsletter input::placeholder {
+    color: rgba(92, 46, 18, 0.40);
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}

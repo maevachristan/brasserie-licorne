@@ -14,26 +14,26 @@
       <div class="container">
         <div class="row">
           <div class="col-2">
-            <img src="../img/logo.svg" alt="Le logo de la brasserie">
+            <img src="../img/logo.svg" alt="Le logo de la brasserie" class="logo">
           </div>
-          <div class="col-6 offset-4">
-            <div>
-              <a href="">Nos bières</a>
-              <a href="">Notre histoire</a>
-              <a href="">Shop</a>
-              <a href="">Points de vente</a>
-              <a href="">Contact</a>
-            </div>
-            <div>
-              <a href="">fr</a>
-              <p>|</p>
-              <a href="">de</a>
-              <p>|</p>
-              <a href="">en</a>
-            </div>
-            <div>
-              <a href=""><img src="../img/user_profile.svg" alt="Icône d'accès utilisateur"></a>
-              <a href=""><img src="../img/basket.svg" alt="Accès au panier"></a>
+          <div class="col-10">
+            <div class="menu-nav">
+              <div class="sections">
+                <a href="">Nos bières</a>
+                <a href="">Notre histoire</a>
+                <a href="">Shop</a>
+                <a href="">Points de vente</a>
+                <a href="">Contact</a>
+              </div>
+              <div class="languages">
+                <a href="">fr</a>
+                <p>|</p>
+                <a href="">de</a>
+                <p>|</p>
+                <a href="">en</a>
+              </div>
+              <img src="../img/user_profile.svg" alt="Icône d'accès utilisateur">
+              <img src="../img/basket.svg" alt="Icône panier d'achats">
             </div>
           </div>
         </div>
@@ -41,7 +41,9 @@
       <div class="container">
         <div class="row">
           <div class="col-10 offset-1">
-            <img src="../img/slogan.svg" alt="Le slogan de la brasserie">
+            <div class="slogan">
+              <img src="../img/slogan.svg" alt="Le slogan de la brasserie">
+            </div>
           </div>
         </div>
       </div>
@@ -101,7 +103,7 @@
                 Pack de 4 CHF 16.-</p>
                 <div class="row">
                   <div class="col-4 offset-4">
-                    <div>acheter</div>
+                    <div class="buy-button">acheter</div>
                   </div>
                 </div>
               </div>
@@ -121,7 +123,7 @@
                 Pack de 4 CHF 16.-</p>
                 <div class="row">
                   <div class="col-4 offset-4">
-                    <div>acheter</div>
+                    <div class="buy-button">acheter</div>
                   </div>
                 </div>
               </div>
@@ -146,7 +148,7 @@
                 <strong>CHF 4.60</strong><br>Pack de 4 CHF 16.-</p>
                 <div class="row">
                   <div class="col-4 offset-4">
-                    <div>acheter</div>
+                    <div class="buy-button">acheter</div>
                   </div>
                 </div>
               </div>
@@ -155,42 +157,45 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="l-footer">
       <div class="container">
         <div class="row">
           <div class="col-3">
-            <img src="../img/logo.svg" alt="Le logo de la brasserie">
-            <p>Silvain Megroni<br>Chemin du Lac 2<br>CH - 1470 Estavayer-le-Lac</p>
-          </div>
-          <div class="col-3">
-            <h3>nos reseaux sociaux</h3>
-            <div>
-              <img src="../img/insta.svg" alt="Logo d'Instagram">
-              <img src="../img/tiktok.svg" alt="Logo de Tikok">
+            <div class="address">
+              <img src="../img/logo.svg" alt="Le logo de la brasserie">
+              <p>Silvain Megroni</p>
+              <p>Chemin du Lac 2</p>
+              <p>CH - 1470 Estavayer-le-Lac</p>
+              <p class="copyright">© 2024 Licorne. Tous droits réservés</p>
             </div>
           </div>
           <div class="col-3">
-            <h3>newsletter</h3>
-            <p>Souscrivez à la newsletter pour ne rater aucune occasion !</p>
-            <input type="email" placeholder="Adresse e-mail">
+            <div class="our-networks">
+              <h3>nos reseaux sociaux</h3>
+              <div class="networks">
+                <img src="../img/insta.svg" alt="Logo d'Instagram" class="insta">
+                <img src="../img/tiktok.svg" alt="Logo de Tikok" class="tiktok">
+              </div>
+            </div>
           </div>
           <div class="col-3">
-            <h3>notre boutique</h3>
-            <div>
-              <a href="">Politique de confidentialité</a>
-              <a href="">Conditions générales de vente</a>
+            <div class="newsletter">
+              <h3>newsletter</h3>
+              <p>Souscrivez à la newsletter pour ne rater aucune occasion !</p>
+              <input type="email" placeholder="Adresse e-mail">
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="our-shop">
+              <h3>notre boutique</h3>
+              <div class="to-read">
+                <a href="">Politique de confidentialité</a>
+                <a href="">Conditions générales de vente</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <p>© 2024 Licorne. Tous droits réservés</p>
-          </div>
-        </div>
-      </div>
-      <img src="../img/unicorn.png" alt="Licorne mascotte de la brasserie">
     </footer>
     <script src="js/main.js" type="module"></script>
   </body>

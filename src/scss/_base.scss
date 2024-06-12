@@ -47,10 +47,24 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^=col-] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
+// .row > .col,
+// .row > [class^=col-] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, .15);
+//   border: 1px solid rgba(86, 61, 124, .2);
+// }
+
+body {
+  color: #c4a283;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Katari';
+  font-size: 24px;
+  font-weight: 700;
+  margin: 46px 0 24px;
+  text-transform: uppercase;
 }
