@@ -1,0 +1,29 @@
+.buy-button {
+    background-color: #c4a283;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px 0 rgba(0, 0, 0, 0.15);
+    color: #5c2e12;
+    font-family: 'Katari';
+    font-size: 30px;
+    font-weight: 700;
+    padding: 17px 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 206px;
+}
+
+.buy-button a {
+    text-decoration: none;
+}
+
+.blond-button {
+    bottom: 600px;
+    left: 971px;
+    position: relative;
+}
+
+.blond-button:hover {
+    background-color: #5c2e12;
+    color: #c4a283;
+}
