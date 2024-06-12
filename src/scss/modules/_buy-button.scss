@@ -17,6 +17,12 @@
     text-decoration: none;
 }
 
+.blond-button {
+    bottom: 740px;
+    left: 990px;
+    position: relative;
+}
+
 .blond-button:hover {
     background-color: #9747ff;
     color: #c4a283;
@@ -24,9 +30,23 @@
 
 .dunkel-button {
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.15);
+    left: 160px;
+    position: relative;
+    top: 215px;
 }
 
 .dunkel-button:hover {
     background-color: #5c2e12;
+    color: #c4a283;
+}
+
+.ipa-button {
+    bottom: 620px;
+    left: 910px;
+    position: relative;
+}
+
+.ipa-button:hover {
+    background-color: #97921e;
     color: #c4a283;
 }

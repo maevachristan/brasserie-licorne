@@ -1,27 +1,25 @@
-.purple-stone {
+.green-stone {
     display: flex;
     justify-content: center;
-    margin-top: 280px;
-   
 }
 
-.purple-stone img {
-    max-width: 957px;
+.green-stone img {
+    max-width: 765px;
     position: absolute;
 }
 
-.blond-drink {
-    left: 250px;
+.ipa-drink {
+    bottom: 35px;
+    left: 180px;
     max-width: 295px;
     position: relative;
-    top: -95px;
     transform: rotate(-15deg);
 }
 
-.blond-beer p {
-    bottom: 810px;
+.ipa-beer p {
+    bottom: 690px;
     font-size: 28px;
-    left: 767px;
+    left: 675px;
     line-height: 53px;
     position: relative;
     width: 470px;
