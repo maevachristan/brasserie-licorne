@@ -1,19 +1,44 @@
+.blond-beer {
+    height: 1100px;
+    margin-bottom: 80px;
+}
+
 .purple-stone {
     display: flex;
     justify-content: center;
 }
 
 .purple-stone img {
-    max-width: 957px;
     position: absolute;
+    width: 957px;
 }
 
 .blond-drink {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: changeBlondRotation;
+    bottom: 95px;
     left: 250px;
-    max-width: 295px;
     position: relative;
-    top: -95px;
     transform: rotate(-15deg);
+    width: 295px;
+}
+
+@keyframes changeBlondRotation {
+    0% {
+        bottom: 95px;
+        transform: rotate(-15deg);
+    }
+
+    50% {
+        bottom: 80px;
+        transform: rotate(-12deg);
+    }
+
+    100% {
+        bottom: 95px;
+        transform: rotate(-15deg);
+    }
 }
 
 .blond-beer p {
@@ -23,9 +48,4 @@
     line-height: 53px;
     position: relative;
     width: 470px;
-}
-
-.blond-beer {
-    margin-bottom: 80px;
-    height: 1100px;
 }

@@ -1,19 +1,43 @@
+.ipa-beer {
+    height: 1100px;
+}
+
 .green-stone {
     display: flex;
     justify-content: center;
 }
 
 .green-stone img {
-    max-width: 765px;
     position: absolute;
+    width: 765px;
 }
 
 .ipa-drink {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: changeIpaRotation;
     bottom: 35px;
     left: 180px;
-    max-width: 295px;
     position: relative;
     transform: rotate(-15deg);
+    width: 295px;
+}
+
+@keyframes changeIpaRotation {
+    0% {
+        bottom: 35px;
+        transform: rotate(-15deg);
+    }
+
+    50% {
+        bottom: 20px;
+        transform: rotate(-12deg);
+    }
+
+    100% {
+        bottom: 35px;
+        transform: rotate(-15deg);
+    }
 }
 
 .ipa-beer p {
@@ -23,8 +47,4 @@
     line-height: 53px;
     position: relative;
     width: 470px;
-}
-
-.ipa-beer {
-    height: 1100px;
 }

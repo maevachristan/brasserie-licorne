@@ -1,19 +1,44 @@
+.dunkel-beer {
+    height: 1100px;
+    margin-bottom: 80px;
+}
+
 .dunkel-stone {
     display: flex;
     justify-content: center;
 }
 
 .dunkel-stone img {
-    max-width: 834px;
+    width: 834px;
     position: absolute;
 }
 
 .dunkel-drink {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: changeDunkelRotation;
     bottom: 510px;
     left: 830px;
-    max-width: 295px;
     position: relative;
     transform: rotate(15deg);
+    width: 295px;
+}
+
+@keyframes changeDunkelRotation {
+    0% {
+        bottom: 510px;
+        transform: rotate(15deg);
+    }
+
+    50% {
+        bottom: 525px;
+        transform: rotate(12deg);
+    }
+
+    100% {
+        bottom: 510px;
+        transform: rotate(15deg);
+    }
 }
 
 .dunkel-beer p {
@@ -24,9 +49,4 @@
     text-align: right;
     top: 140px;
     width: 470px;
-}
-
-.dunkel-beer {
-    margin-bottom: 80px;
-    height: 1100px;
 }

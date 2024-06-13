@@ -1,16 +1,16 @@
 .personal-nav {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 25px;
 }
 
 .languages {
     display: flex;
-    gap: 6px;
     font-family: 'Katari';
     font-size: 15px;
     font-weight: 700;
+    gap: 6px;
     text-transform: uppercase;
 }
 
