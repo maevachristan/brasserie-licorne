@@ -1,0 +1,14 @@
+.sections { 
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.sections a {
+    text-decoration: none;
+}
+
+.sections a:hover {
+    color: #97921e;
+}

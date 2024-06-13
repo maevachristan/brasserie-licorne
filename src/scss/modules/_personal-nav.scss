@@ -1,0 +1,28 @@
+.personal-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.languages {
+    display: flex;
+    gap: 6px;
+    font-family: 'Katari';
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.languages a {
+    text-decoration: none;
+}
+
+.languages a:hover {
+    color: #97921e;
+}
+
+.user-access {
+    display: flex;
+    gap: 18px;
+}
