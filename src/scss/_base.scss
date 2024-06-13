@@ -55,11 +55,18 @@ video {
 //   border: 1px solid rgba(86, 61, 124, .2);
 // }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background-color: #000000;
   color: #c4a283;
   font-family: 'Abhaya Libre', serif;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 h2 {
