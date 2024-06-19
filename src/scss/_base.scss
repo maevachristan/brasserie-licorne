@@ -1,3 +1,9 @@
+@font-face { 
+  font-family: 'Trattatello'; 
+  src:  url('../fonts/Trattatello.woff2') format('woff2'), 
+        url('../fonts/Trattatello.woff') format('woff'); 
+}
+
 /* ====================================
 // css variables
 // ==================================== */
@@ -71,16 +77,16 @@ body {
 
 h2 {
   color: #5c2e12;
-  font-family: 'Katari';
-  font-size: 24px;
-  font-weight: 700;
+  font-family: 'Trattatello';
+  font-size: 26px;
+  font-weight: normal;
   text-transform: uppercase;
 }
 
 h3 {
-  font-family: 'Katari';
-  font-size: 24px;
-  font-weight: 700;
+  font-family: 'Trattatello';
+  font-size: 26px;
+  font-weight: normal;
   margin: 46px 0 24px;
   text-transform: uppercase;
 }
